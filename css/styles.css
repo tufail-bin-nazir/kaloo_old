@@ -30,7 +30,7 @@
 }
 
 .layer {
-    background-color: rgba(248, 247, 216, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
     left: 0;
@@ -40,7 +40,7 @@
 
 .row p {
 	    padding-top: 2%;
-        font-family: serif;
+        text-align: justify;
 	    font-style: italic;
 	    height: 100px;
 }
@@ -84,4 +84,13 @@ header{
 
 .nounderline {
 	border-top: none;
+}
+
+#market p {
+	right: 40%;
+    position: absolute;
+    /* padding-left: 50%; */
+    top: 47%;
+    color: white;
+    font-size: x-large;
 }

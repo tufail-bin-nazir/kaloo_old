@@ -8,7 +8,7 @@
 </head>
 <body>
 	<!--Basic navbar Structure -->
- <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+ <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-fixed-top">
  	<div class="container">
  		<a class="navbar-brand" href="#">
  			<img src="img/main-logo.png">
@@ -39,7 +39,7 @@
  </nav>
  <header id="mainHeader" class="mb-5">
  	     <div class="home-inner">
- 			    <div style="height: 100%;" class="row">
+ 			    <div style="height: 100%;" class="row nounderline">
  				<div class="col-6" style="color: white;">
  					<h1 class="text-center">
  						About us
@@ -73,13 +73,13 @@
  							<div class="carousel-item active">
  								<div class="row nounderline" >
  									<div class="col">
- 										<img style="width: 200px; height:110px;" src="img/prod1.jpg">
+ 										<img style="width: 200px; height:110px;border-radius: 60px;border: solid red 1.5px;" src="img/prod1.jpg">
  									</div>
  									<div class="col">
- 										<img  style="width: 200px; height:110px;" src="img/prod2.jpg">
+ 										<img  style="width: 200px; height:110px;border-radius: 60px;border: solid red 1.5px;" src="img/prod2.jpg">
  									</div>
  									<div class="col">
- 										<img style="width: 200px; height:110px;" src="img/prod3.jpg">
+ 										<img style="width: 200px; height:110px;border-radius: 60px;border: solid red 1.5px;" src="img/prod3.jpg">
  									</div>
  								</div>
  								
@@ -87,17 +87,17 @@
  							<div class="carousel-item">
  								<div class="row nounderline" >
  									<div class="col">
- 										<img style="width: 200px; height:110px;" src="img/prod4.jpg">
+ 										<img style="width: 200px; height:110px; border-radius: 60px;border: solid red 1.5px;" src="img/prod4.jpg">
  									</div>
  									<div class="col">
- 										<img  style="width: 200px; height:110px;" src="img/prod5.jpg">
+ 										<img  style="width: 200px; height:110px; border-radius: 60px; border: solid red 1.5px;" src="img/prod5.jpg">
  									</div>
  									<div class="col">
- 										<img style="width: 200px; height:110px;" src="img/prod6.jpg">
+ 										<img style="width: 200px; height:110px; border-radius: 60px;border: solid red 1.5px;" src="img/prod6.jpg">
  									</div>
  								</div>
  								
- 							</div>
+ 							</div> 
  								
  							</div>
  						   <a href="#slider" class="carousel-control-prev" data-slide="prev">
@@ -157,7 +157,7 @@
 	 			<h3 class="text-center mt-4">
 	 				<img src="img/meinberg-logo.png">
 	 			</h1>
-	             <p class="px-2 mx-4">
+	             <p class="px-2 mx-4" style="color: white;">
 	             	Your Partner for Professional Time and Frequency
                     Synchronization Solutions
 	             	PTP/IEEE 1588 Systems, NTP Servers,
@@ -171,7 +171,7 @@
 	 			<h3  class="text-center mt-4" >
 	 				<img style="width:150px;" src="img/transition-logo.svg">
 	 			</h3>
-	 			<p class="px-2 mx-4">
+	 			<p class="px-2 mx-4" style="color: white;">
 	 				Transition Networks bring to market technologies
 					that modernize your existing network
 					infrastructure with new solutions for fiber optics,
@@ -312,8 +312,8 @@
 
 
  <section class="mb-5">
- 	 <h1 class="text-center">Our  <span style="color: #06ACB8"> Other Partners</span></h1>
- 	 <div class="row">
+ 	
+ 	 <div class="row nounderline">
  	 	<div class="col-6 text-center" style="margin-top: 50px;">
             
  	 		  <img src="img/irm_logo.png" ">
@@ -377,19 +377,25 @@
 
  	<div class="row" style="height: 355px;"> 
  		<div class="col-4" style="background-image: url(img/enterprise.jpg); background-position: center; background-repeat: no-repeat;">
+ 			<div class="layer">
  		    <p>
  		    	Enterprise
  		    </p>
+ 		    </div>
  		</div>
  		<div class="col-4" style="background-image: url(img/government.jpg); background-position: center;  background-repeat: no-repeat;">
+ 			<div class="layer">
  			<p>
  				Government
  			</p>
  		</div>
+ 		</div>
  		<div class="col-4" style="background-image: url(img/survilence.jpg); background-position: center;  background-repeat: no-repeat;">
+ 			<div class="layer">
  			<p>
- 				Physical Security And Survilence
+ 				Security And Survilence
  			</p>
+ 		</div >
  		</div>
  	</div>
  	
